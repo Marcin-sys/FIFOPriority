@@ -5,7 +5,7 @@ public class Main {
         FIFOPriority fifoPiority = new FIFOPriority();
         fifoPiority.push("Zbyszek",50);
         fifoPiority.push("Adam",70);
-        fifoPiority.push("Grzesiek",50);
+        fifoPiority.push("Grzesiek",70);
         fifoPiority.push("Adam",10);
 
 

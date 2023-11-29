@@ -29,11 +29,11 @@ public class FIFOPriority {
             return "Queue is Empty";
         }
 
-        if (this.dataBaseFIFO.size() < 3){
-            return "Queue dont have 3 Patient";
-        }
+//        if (this.dataBaseFIFO.size() < 3){
+//            return "Queue dont have 3 Patient";
+//        }
         String result = " ";
-        for (int i = 0; i < 3; i++){
+        for (int i = 0; i < 1; i++){
             result = result + findTopPriority() + " ";
         }
         return result;
